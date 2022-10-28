@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/reset.css"
+    <link rel="stylesheet" href="./css/styles.css"
+</head>
+<body>
+    <head>
+        <h2>Weather Dashboard</h2>
+    </head>
+    <section id="search"></section>
+    <div></div>
+    <h2>Search for a City:</h2>
+    <input type="text" class="city" placeholder="Riverside">
+    <button type="button" id="searchBtn">Search</button>
+    <hr>
+    <section id='searchHistory'>
+        <div></div>
+    </section>
+    <section id='forcast'>
+        <div id="today-forcast">
+            <p>Temperature: <span class="city" id="temp"></span></p>
+            <p>Humidity: <span class="city" id="humidity"></span></p> 
+            <p>Wind Speed: <span class="city" id="wind"></span></p>
+            <p>UV index: <span class="city" id="uv"></span></p> 
+        </div>
+        
+        <h3>5-Day Forcast</h3>
+        <div id='5days'>
+            <div class="future">
+                <p>Temperature: <span class="futureForecast" id="futureTemp"></span></p>
+                <p>Humidity: <span class="futureForecast" id="futureHumidity"></span></p> 
+                <p>Wind Speed: <span class="futureForecast" id="futureWind"></span></p>
+            </div> 
+            <div class="future">
+                <p>Temperature: <span class="futureForecast" id="futureTemp"></span></p>
+                <p>Humidity: <span class="futureForecast" id="futureHumidity"></span></p> 
+                <p>Wind Speed: <span class="futureForecast" id="futureWind"></span></p>
+            </div> 
+            <div class="future">
+                <p>Temperature: <span class="futureForecast" id="futureTemp"></span></p>
+                <p>Humidity: <span class="futureForecast" id="futureHumidity"></span></p> 
+                <p>Wind Speed: <span class="futureForecast" id="futureWind"></span></p>
+            </div> 
+            <div class="future">
+                <p>Temperature: <span class="futureForecast" id="futureTemp"></span></p>
+                <p>Humidity: <span class="futureForecast" id="futureHumidity"></span></p> 
+                <p>Wind Speed: <span class="futureForecast" id="futureWind"></span></p>
+            </div> 
+            <div class="future">
+                <p>Temperature: <span class="futureForecast" id="futureTemp"></span></p>
+                <p>Humidity: <span class="futureForecast" id="futureHumidity"></span></p> 
+                <p>Wind Speed: <span class="futureForecast" id="futureWind"></span></p>
+            </div> 
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
